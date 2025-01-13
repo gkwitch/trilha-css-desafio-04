@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , 'Luckiest Guy';
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.section-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 700px;
+
+    background-image: url(assets/Header\ Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-a h1 {
+    width: 384px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: white;
+    font-size: 4rem;
+    font-family: 'Luckiest Guy';
+    font-weight: normal;
+}
+.container-a p {
+    text-align: center;
+    width: 700px;
+    margin-top: 40px;
+
+    color: white;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+.buttons-a {
+    margin-top: 40px;
+}
+#button-a {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    color: black;
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 20px ;
+}
+#button-b {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    color: white;
+    padding: 15px 25px;
+    background-color: #23272A;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.section-b {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 550px;
+}
+.container-b{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-b img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+.section-b-text{
+    
+}
+.section-b-text h2 {
+    display: inline-block;
+    font-size: 2.8em;
+    font-weight: 900;
+    width: 380px;
+
+    margin-bottom: 15px;
+}
+.section-b-text p {
+    text-align: start;
+    font-size: 1em;
+    width: 350px;
+}
+.section-c {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F6F6F6;
+    height: 550px;
+
+}
+.container-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-c img {
+    display: inline-block;
+    max-width: 100%;
+}
+.section-c-text{
+    display: inline-block;
+    margin-right: 50px;
+}
+.container-c h2 {
+    font-weight: 900;
+    font-size: 3em;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.container-c p {
+    font-size: 1.1em;
+    width: 400px;
+}
+.section-d {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 550px;
+}
+.container-d{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-d img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+.section-d-text{
+    
+}
+.section-d-text h2 {
+    display: inline-block;
+    font-size: 2.8em;
+    font-weight: 900;
+    width: 380px;
+
+    margin-bottom: 15px;
+}
+.section-d-text p {
+    text-align: start;
+    font-size: 1em;
+    width: 350px;
+}
+.section-e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 900px;
+    background-color: #F6F6F6;
+}
+
+.container-e{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-e h1 {
+    width: 800px;
+    text-align: center;
+
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Luckiest Guy';
+    font-weight: normal;
+}
+.container-e p {
+    text-align: center;
+    width: 850px;
+    margin-top: 40px;
+
+    color: black;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+.section-e img {
+    margin-top: 30px;
+}
+footer {
+    background-color: #23272A;
+    padding: 50px;
+    height: 150px;
+}
+footer img {
+    max-width: 100%;
+}
+.container-f {
+    margin: auto;
+    width: 200px;
+}
+@media screen and (max-width: 820px){
+    body {
+        
+    }
+    .section-a{
+        width: 100vw;
+        height: 60vh;
+
+        background-image: url(assets/Header\ Background.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .container-a {
+        width: 100%;
+        height: auto;
+    }
+    .container-a h1 {
+        text-align: start;
+        font-size: 2.5rem;
+    }
+    .container-a p {
+        text-align: justify;
+        width: 90%;
+    }
+    .buttons-a {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #button-a{
+        width: 90%;
+        margin-right: 0;
+    }
+    #button-b{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .section-b {
+        width: 100%;
+        height: 50%;
+       
+    }
+    .container-b {
+        flex-flow: column nowrap;
+        width: 100%;
+        margin: 30px 0px;
+        height: auto;
+    }
+    .container-b img{
+        margin: 0;
+    }
+    .container-b h2 {
+        font-size: 1.7rem;
+    }
+    .section-c {
+        width: 100%;
+    }
+    .container-c {
+        flex-flow: column-reverse nowrap;
+        width: 100%;
+        margin: 30px 0px;
+        height: auto;
+    }
+    .container-c h2 {
+        font-size: 1.7rem;
+    }
+    .section-c-text{
+        width: 90%;
+        margin: 0;
+    }
+    .section-d {
+        width: 100%;
+    }
+    .container-d {
+        flex-flow: column nowrap;
+        width: 100%;
+        margin: 30px 0px;
+        height: auto;
+    }
+    .container-d h2 {
+        font-size: 1.7rem;
+    }
+    .container-d img {
+        margin: 0;
+    }
+    .section-e {
+        width: 100%;
+        height: 70vh;
+    }
+    .container-e {
+        margin: 30px 0px;
+        width: 100%;
+        height: auto;
+    }
+    .container-e img {
+        max-width: 90%;
+    }
+    .container-e h1 {
+        font-size: 2rem;
+        width: 90%;
+        text-align: start;
+    }
+    .container-e p {
+        text-align: justify;
+        width: 90%;
+    }
+}
